@@ -102,7 +102,7 @@ public class MainWindow {
 			} else {
 				Label dialogueBox = new Label(shlLogin, SWT.NONE);
 				dialogueBox.setBounds(91, 430, 265, 61);
-				dialogueBox.setText("Sorry username is incorrect");	
+				dialogueBox.setText("Sorry username is not found");	
 			}
 			if (password.equals(usernames.get(i))){
 				Label dialogueBox = new Label(shlLogin, SWT.NONE);
